@@ -12,9 +12,9 @@ public class Percobaan627 {
         System.out.print("Masukan tinggi: ");
         t=input.nextInt();
 
-        L=p*l;
+        L=hutangLuas(p, l);
         System.out.println("Luas persegi panjang adalah: " + L);
-        vol= p*l*t;
+        vol= hitungVolume(t, p, L);
         System.out.println("Volume balok adalah " + vol);
         
     }
